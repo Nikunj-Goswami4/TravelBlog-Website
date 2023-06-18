@@ -1,0 +1,290 @@
+.navbar-font{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.navbar-active-style{
+    text-decoration: none;
+    color: rgb(198, 124, 20);
+}
+
+.a-hover:hover{
+    color: rgb(198, 124, 20);
+    /* font-weight: 900;     */
+}
+
+.homePage-image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered-imageText {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.bottom-left-imageText {
+  position: absolute;
+  /* bottom: -214px; */
+  bottom: -30vh;
+  left: 6.5vw;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.homePage-tiltText{
+  font-family:'Italiana', serif ;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 85px;
+  text-shadow: 3px 4px 6px black;
+}
+
+.homePage-text{
+  font-family:Helvetica, Arial, sans-serif;
+  color: white;
+  text-shadow: 3px 4px 6px black;
+}
+
+.homePage-divText{
+  font-family:'Italiana', serif ;
+  font-size: 44px;
+  text-align: center;
+}
+
+.homePage-divText2{
+  font-family:Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 16px;
+  color: #393939;
+}
+
+#hr-line{
+    width: 5%;
+    color: rgb(255, 152, 7);
+    border: 2px solid;
+}
+
+
+
+.fixed-image1 {
+    background-image: linear-gradient(21deg, #0094e970 0%, #80D0C770 100%), url("./images/locations/hidden-gem.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.fixed-image0 {
+    background-image: url("./images/locations/home-page4.jpg");
+    background-attachment: fixed, scroll;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100%;
+}
+
+
+.fixed-image2 {
+    background-image: linear-gradient(21deg, #0094e970 0%, #80D0C770 100%), url("./images/locations/Sustainable\ Travel.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat;
+}
+
+.fixed-image3 {
+    background-image: linear-gradient(21deg, #0094e970 0%, #80D0C770 100%), url("./images/locations/Culinary\ Journeys.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat, no-repeat;
+}
+
+
+.hiddengems-tile{
+    font-family:'Italiana', serif ;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+}
+
+
+.hiddengems-text{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 16px;
+}
+
+.album-title{
+    font-family:'Italiana', serif ;
+    font-weight: 800;
+}
+
+.album-text{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #393939;
+}
+
+.footer-bg{
+    background-image: linear-gradient(21deg, #0094e9 0%, #80D0C7 100%);
+
+}
+
+.footer-icon{
+    filter: brightness(0) invert(1);
+    width: 25px;
+}
+
+
+
+.news-tiltText{
+    font-family:'Italiana', serif ;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 74px;
+  }
+  
+  .news-text{
+    font-family:Helvetica, Arial, sans-serif;
+  }
+
+
+
+  /* .......... */
+
+
+
+
+a{
+  text-decoration:none;
+}
+
+
+
+.container1{
+  
+   max-width:1200px;
+   display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;  
+ 
+  
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content:center;
+  margin:100px auto;
+  
+  .news-item{
+    width:300px;
+    height:500px;
+  
+     margin:15px;
+     -webkit-box-shadow: 0px 0px 30px 0px rgba(50, 50, 50, 0.55);
+-moz-box-shadow:    0px 0px 30px 0px rgba(50, 50, 50, 0.55);
+box-shadow:         0px 0px 30px 0px rgba(50, 50, 50, 0.55);
+    border-radius: 5px;
+    .news-image{
+      width:100%;
+      height:200px;
+      background-size:cover;
+      border-top-left-radius:5px;
+      border-top-right-radius:5px;
+      position:relative;
+      ul{
+        margin:0;
+        padding:0;
+        position:absolute;
+        right:0;
+        top:0;
+        bottom:0;
+        height:100%;
+      
+        background: #95b0ff;
+    
+        border-top-right-radius:5px;
+        
+       
+        li{
+          list-style:none;
+          color:#FFF;
+          padding:5px 10px;
+        }
+      }
+      
+    }
+    .news-infor-content{
+      padding:0 10px;
+    }
+    .time-to-read{
+      padding:0;
+      margin:10px 0 0;
+      font-size:.7rem;
+      max-width:110px;
+      color: #999;
+      border-bottom:1px solid;
+      
+    }
+    
+    .tittle ,.paragraph{
+      max-width:300px;
+      padding:0;
+      margin:0;
+      font-size:.9rem;
+    }
+    
+    .tittle {
+          color: #333333;
+          border-width: 0px;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    filter: blur(0px);
+    font-size: 24px;
+    text-transform: none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    font-style: normal;
+    z-index: 46;
+   font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    overflow: visible;
+      
+    }
+    
+    .paragraph{
+       font-size:.9rem;
+       color: #8b8b8b;
+      font-weight:900;
+    }
+    
+    .bottom-content{
+      -webkit-box-flex: 1;
+    -webkit-flex: 1 0 auto;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    min-height: 5px;
+        color: #999;
+      opacity:.7;
+      font-size:.7rem;
+      
+
+    }
+  }
+  
+}
