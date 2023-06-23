@@ -28,10 +28,7 @@
   }
 
 .bottom-left-imageText {
-  position: absolute;
-  /* bottom: -214px; */
-  bottom: -30vh;
-  left: 6.5vw;
+    margin-top: 0rem;
 }
 
 .responsive {
@@ -58,6 +55,7 @@
   font-family:'Italiana', serif ;
   font-size: 44px;
   text-align: center;
+  margin-top: 4rem;
 }
 
 .homePage-divText2{
@@ -74,6 +72,9 @@
 }
 
 
+.harsh{
+  margin-top: 4rem;
+}
 
 .fixed-image1 {
     background-image: linear-gradient(21deg, #0094e970 0%, #80D0C770 100%), url("./images/locations/hidden-gem.png");
